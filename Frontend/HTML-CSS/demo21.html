@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title> div tag using Class Selector</title>
+
+
+    <style>
+      #box
+      {
+         height: 500px;
+         width: 500px;
+         background: orange;
+      }
+      .a
+      {
+        height: 100px;
+        width: 500px;
+        background: red;
+
+      }
+      .b{
+        height: 300px;
+        width: 500px;
+        background: yellow;
+      }
+      .x{
+        height: 100px;
+        width: 100px;
+        background: gray;
+        float: left;
+      }
+
+      .y{
+        height: 100px;
+        width: 300px;
+        background :black;
+        float: left;
+      }
+      .p
+      {
+        height: 300px;
+        width: 100px;
+        background : hotpink ;
+        float: left;
+      }
+      .q
+      {
+        height: 300px;
+        width: 300px;
+        background: lawngreen;
+        float: left;
+      }
+    </style>
+  </head>
+    
+  <body>
+    <div id="box">
+      <div class="a">
+        <div class="x"></div>
+        <div class="y"></div>
+        <div class="x"></div>
+      </div>
+      <div class="b">
+        <div class="p"></div>
+        <div class="q"></div>
+        <div class="p"></div>
+      </div>
+      <div class="a">
+        <div class="x"></div>
+        <div class="y"></div>
+        <div class="x"></div>
+      </div>
+    </div>
+  </body>
+</html>

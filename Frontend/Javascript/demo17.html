@@ -1,0 +1,52 @@
+<html>
+  <head>
+     <style>
+      div
+      {
+        height: 150px;
+        width: 150px;
+        border: 10px solid  red;
+        float: left;
+        margin: 20px;
+      }
+     </style>
+  </head>
+  <body>
+        <div id="dv1">
+          <p>this is paragraph</p> 
+          <b>tis is b tag</b> <br>
+          Techpile Technology  <br>
+          <u>This is u tag</u>
+        </div>
+        <div id="dv2"></div>
+        
+        <button onclick="myfun()">Click Me</button>
+        
+        <script>
+          function myfun()
+          {
+               var d1=document.getElementById("dv1")
+               var d2=document.getElementById("dv2")
+              //  alert(d1.innerText)
+              // alert(d1.innerHTML)
+              // alert(d1.outerHTML)
+
+              var data= d1.innerHTML
+              d2.innerHTML="<b>Techpile Summer Training 2026</b>"  // innerHTML b tag support karega 
+              // d2.innerText="<b>Techpile Summer Training 2026</b>  ye b tag support nhi karega!!!!"
+
+              d2.innerHTML=data
+
+              
+
+
+
+
+            
+
+
+
+          }
+        </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+  <head><title>background images For transparent</title>
+  
+    <style>
+      body
+      {
+            background: url(images/image10.jpg);
+            background-size: cover;
+      }
+      #Outer
+      {
+        height: 400px;
+        width: 600px;
+        margin: 100px auto;
+        border-radius: 5%;
+        text-align: center;
+        color: rgb(218, 84, 84);
+        font-size: 100px;
+        line-height: 400px;
+        /* background: rgba(80, 112, 159, .9) ; */
+        transition: all 1s;
+        background: rgba(83, 95, 108, .4);
+
+      }
+      #Outer:hover
+      {
+        backdrop-filter: blur(6px);
+        transition: all 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Outer">DEVELOPER <br>BALJEET</div>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Login Form</title>
+    <style>
+      body{
+        background: url(images/image10.jpg);
+        background-size:cover ;
+        font-family: Arial, Helvetica, sans-serif ;
+      }
+      #login
+      {
+        min-height: 350px;
+        width: 500px;
+        background: rgba(164, 167, 178,.3);
+        margin: 250px auto;
+        border-radius: 10px;
+        padding: 50px ;
+        box-sizing: border-box;
+        transition: all 1s;
+      }
+
+      #login:hover{
+        background: rgba(167,172,172,.4);
+        transition: all 1s;
+        backdrop-filter: blur(2px);
+        box-shadow: 0px 0px 1px 10px rgba(214, 221, 205, 0.3), 0px 0px 2px 20px rgba(233, 234, 232, 0.2),0px 0px 3px 30px rgba(87, 91, 81, .1)  ;
+      }
+      
+
+      #heading
+      {
+        font-size: 30px;
+        text-align:center;
+      }
+
+      .txt
+      {
+        height: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+        background: #c9d3d1;
+        padding-left: 10px;
+        box-sizing: border-box;
+        color: #055945;
+        font-weight: bold;
+        /* border: 2px solid #00897B; */
+        border: none;
+        border-radius: 100px;
+        background: rgba(164, 167, 178,.4);
+        
+      }
+
+      ::placeholder
+      {
+        color: #109173;
+      }
+
+      .btn
+      {
+        height: 40px;
+        width: 100%;
+        background: #0bf1bc;
+        color: white;
+        border: none;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        border-radius: 100px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="login">
+         <div id="heading">LOGIN <b style="color: #09453f;">FORM</b></div>
+         
+      
+         UserId  <br><input height="50px" width="50px" type="text" class="txt"  placeholder="Enter UserId..."> 
+         <br>
+         Password  <br><input type="password" class="txt" placeholder=" Password.."> <br>
+        
+         <input type="submit" class="btn"  value="Login"/>
+    </div>
+  </body>
+</html> 

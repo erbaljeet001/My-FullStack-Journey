@@ -1,0 +1,23 @@
+write js code
+=======================
+1. Internal Javascript 
+<script>
+
+</script>
+2. External Javascript:
+
+file.js
+------------------
+
+statement
+statement
+
+demo1.html
+===========
+<script src="p1.js"></script>
+=============
+
+25/06/2026
+DOM VS BOM:
+DOM : DOCUMENT OBJECT MODEL
+BOM : BROWSER OBJECT MODEL

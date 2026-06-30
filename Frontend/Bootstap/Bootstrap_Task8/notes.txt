@@ -1,0 +1,176 @@
+bootstrap colors
+================
+danger
+warning
+primary
+secondary
+info
+success
+dark 
+white
+light
+
+Background color :
+===============
+bg-colorname :
+bg-danger
+bg-orange
+bg-dark
+bg-primary
+bg-secondary
+bg-success
+bg-light
+bg-info
+bg-light
+bg-white
+bg-warning  etc.
+
+bg-primary
+bg-secondary
+bg-success
+bg-danger
+bg-warning
+bg-info
+bg-light
+bg-dark
+bg-white
+bg-transparent
+
+===============
+
+color:red => text-colorname
+text-transform => text-uppercase,text-capitalized, text-lowercase
+==============
+h1=>h6
+
+=========
+text-bg-colorname
+text-bg-dark
+text-bg-info
+text-bg-warning
+=========
+FONT SIZE :
+
+font-size =>  fs-(1-5)
+fs-1
+fs-2
+fs-3
+fs-4
+fs-5
+
+=====
+text-align=> text
+
+left-BSV4 => text-left   BSV5 => text-start
+right-BSV4 => text-right  BSv6 => text-end
+for center:
+BSV4 and BSV5 => text-center
+
+=======
+Classes for margin and padding :
+
+margin( for outer space)
+m-(0-5)  top bottom left right
+m-0
+m-1
+m-2
+m-3
+m-4
+m-5
+============
+
+margin-top => mt-(0-5)
+margin-bottom => mb-(0-5)
+margin-left => BSV4 ml-(0-5) , BSV5 ms-(0-5)
+margin-right => BCV4 mr-(0-5) , BSV5 me(0-5)
+margin-left and right => mx(0-5)
+margin-top and bottom => my(0-5)
+margin:0px auto ;=> mx-auto
+===================
+
+padding => p-(0-5) => top bottom left right
+padding-top=> pt-(0-5)
+padding-bottom => pb-(0-5)
+padding-left => BSV4 pl-(0-5) | BSV5 ps(0-5)
+padding-right => BSV4 pr-(0-5) | BSV5 pe(0-5)
+padding-right and padding-left =. px-(0-5)
+padding-top and padding-bottom =. py-(0-5)
+
+==========================
+BSV4 => img-responsive 
+BSV5 => img-fluid | img-thumbnail
+============================
+
+Botton :
+
+btn btn-colorname
+btn btn-danger
+btn btn-warning
+btn btn-outline-danger
+btn btn-outline-warning
+btn btn-outline-success
+etc.
+
+small size btn -> btn-sm
+
+large size btn -> btn-lg
+ font-weight -> fw
+
+===================  
+
+form-control 
+=========================
+
+Bootstrap alert :
+
+alert alert-colorname
+alert alert-success
+alert alert-orange(error nhi h)
+alert alert-danger(error h )
+etc.
+
+width =-> w
+w-100 => 100% width
+w-75 => 75% width
+w-50 => 50% width
+w-25 => 25% width
+=========================
+
+
+DIVISION in  Bootstrap :
+: depend upon row and column
+row-> max( 12 column)
+: all content are in must column  
+
+===========================
+22/062026
+
+col-sm-12
+col-md-12
+col-lg-12
+col-xl-12
+col-xxl-12
+=====================
+border-radius:
+rounded(0-5)
+
+rounded-circle
+rounded-start
+rounded-top
+rounded-end 
+
+=============
+box-shadow:
+shadow shadow-sm
+shadow shadow-lg
+============
+Icon on website:
+
+<div Class ="input-group"><
+<b Class=" input-group-text"></b>
+<input type="text" placeholder="User">
+/div>
+
+
+
+

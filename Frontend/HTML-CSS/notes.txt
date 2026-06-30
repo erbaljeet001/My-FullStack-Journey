@@ -1,0 +1,197 @@
+===============================
+10/06/2026
+two type of tag :
+1: Paired or Container
+eg: <tagname attribute="value"  attribute="value"></tagname>
+2: Single and Unpaired
+eg: <tagname attribute="value"/>
+
+<body bgcolor = "red" background="abc.txt"></body>
+======
+change Text color :
+
+<font></font>
+color
+size
+face : style change
+====================================
+
+Character Entities :
+
+&entity;
+&copy;
+&reg;
+&uarr;
+&darr;
+&larr;
+&harr;
+&varr;
+&nbsp; (for spacing) 
+=================================== 
+11/06/2026
+
+<marquee></marquee>
+
+attribute of marquee tagname
+Direction -> left(Default) | right | up | down
+behavior -> scroll(Default) | slide |alternate
+scrollamount -> number speed management  
+bgcolor ->  for background
+onmouseover-> stop()
+onmouseleave -> start()
+hspace -> for left and right outer space 
+vspace -> for top and buttom outer space 
+loop -> loop
+margin-> outer space
+=====================================
+<img/>
+src => loaction / name.extention
+alt
+title
+height
+width
+=======
+<video></video>
+<audio></audio>
+src
+control
+autoplay
+poster
+height
+width
+=======================
+WEB FORM | FORM control
+
+TAGS RELATED TO WEB FORM 
+1: Input 
+1: Select
+3: optiob
+4: otpgroup
+5: textarea
+6: button
+7: fieldset
+8: formtag
+9: legend
+10: label
+11: form
+============================
+attribute RELATED to Web forms : 
+-> type,name, placeholder, required , value, checked , mim max, autocomplete, selected,autofocus,cols,multiple, for, tabindex, disable, readonly
+  accept  => file extention | video/*| audio/*|images/*
+  method=> get/poster
+  enctype  => text/plain (default)| multipart/form- data 
+===============================12/06/2026
+Name : <br> <input type="text" value="Enter Name : " readonly />  
+     <br>
+1:readonly
+   OR
+2:disable
+========
+ METHOD 
+ 1: get (use to show url data)
+ -> less secure
+ -> use for small form
+ -> ulr length limit (2048 Character)
+ -> file upload is not possible here
+
+ 2: POST
+ -> more secure
+ -> used for big form
+ -> no ulr length limit
+ -> file upload is possible
+   
+
+required -> mandatory to store the data   
+=========================
+CASE -> 
+-> FILE upload
+1. Method => post
+2. enctype => multipart/form-data
+enctype => text/plain(by default ye hota h) | multipart/form-data
+
+===============================
+14/06/2026
+CSS -> cascading style sheet
+it was developed by HAKON WIUM LIE in 1994.
+CSS describe how html tag are to display on web browser.
+
+TYPES OF CSS
+1: Internal CSS
+  <style>
+  selector
+  {
+    property : value;
+    property: value;
+    or
+    placeholder:value;property:value;
+  }
+</style>
+
+2: External CSS
+3: Inline css  
+===============================
+SELECTOR : it is used to select html tag to apply css 
+TYPES OF selector:
+1: TAG/ELEMENT
+2: ID 
+3: CLASS
+4: GROUP
+5: UNIVERSAL
+6: PSEUDO 
+7: CHILD
+8:ODD/EVEN
+9: nth -CHILD  etc.
+======
+border-width : 
+border-style:solid | double | dashed | dotted | groove |
+border-color: red;
+Shorthand Rule :
+border:width style color;
+border:10px solid red; -
+------------------------------
+
+text-transformation :uppercase | lowercase | capitalize |
+
+-------------------------
+
+Inline css :
+
+<tagname style=" property:value;property:value;"></tagname>
+<h1 style="background:red; color: green;"></h1>
+
+-------------------===============
+selector:hover
+{
+  property:value;
+  property:value;
+}
+=================
+transition:property time in second , property time in second;
+transition :background 2s color 5s, border 4s;
+================
+
+text-shadow :h v blur color;
+===== =================================== 
+line-height = length/height bt text  or center 
+: it id used single line of text/word and height will same as  actual height.   
+==========================================
+
+box- shadow : horizontal vertical blur spread color side
+
+spread : use to apply box shadow to all Direction
+
+inset: show in between the box
+================================
+
+box-sizing : content-box(by default value ) | border_box (in only applicable for padding, border );  jisme height aur width baar minus krne ki jarurat nhi padegi .... 
+
+
+================
+
+transform : rotate | scale | scaleY | translate | translateX | translateY | skew | skewX | skewY
+
+======================
+21/06/2004
+BOOTSTRAP ----------
+ 
+

@@ -1,0 +1,84 @@
+<html>
+  <head>
+
+     <style>
+      body{
+        background: plum;
+      }
+
+      #outer
+      {
+        height: 600px;
+        width: 900px;
+        margin: 50px auto;
+        
+      }
+      .row
+      {
+          height: 300px;
+          width: 900px;
+                   
+
+      }
+
+
+    
+      .col
+      {
+        height: 300px;
+        width: 300px; 
+        float: left;
+        background: rgb(239, 230, 230);
+        margin: 10px auto;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(232, 232, 148, 0.3);
+         padding: 20px;
+       box-sizing: border-box;
+       transition: all .2s;
+       border: 1px solid gray;
+
+
+      }
+
+      .col img{
+         height: 100%;
+         width: 100%;
+      }
+      .col:hover
+      {
+        transition: all 2;
+        transform: scale(2);
+        /* filter: scaleY(100%); */
+      }
+      
+     </style>
+  </head>
+  <body>
+    <div id="outer">
+      <div class="row">
+        <div class="col">
+          <img src="images/Img3.jpg">
+        </div>
+        
+        <div class="col">
+          <img src="images/Img3.jpg">
+        </div>
+        <div class="col">
+          <img src="images/Img3.jpg">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="images/Img1.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="images/Img1.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="images/Img1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

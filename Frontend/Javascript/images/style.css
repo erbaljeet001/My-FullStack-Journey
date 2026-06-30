@@ -1,0 +1,22 @@
+#a1{
+  background-color: yellow;
+  border: 30px groove black;
+  line-height: 40px;
+  word-spacing: 5px;
+  letter-spacing: 5;
+  text-transform: capitalize;
+  writing-mode: vertical-lr;
+  
+
+}
+#a2{
+  background-color: yellow;
+  border: 30px groove black;
+  line-height: 40px;
+  word-spacing: 5px;
+  letter-spacing: 5;
+  text-transform: capitalize;
+  writing-mode: horizontal-tb;
+  
+
+}

@@ -1,0 +1,43 @@
+<html>
+  <head>
+   <style>
+    h1 
+    {
+      border: 10px solid aqua;
+
+      text-align: center;
+
+    }
+   </style>
+      
+  </head>
+
+  <body>
+      <h1 id="x" style="color: red;" onmouseover="box()" onmouseleave="box()">Techpile Technology</h1>
+      <h1 id="y" style="color: gray;">Code Helper</h1>
+
+      <!-- <button onclick="box()"> Swap</button> -->
+      <!-- <button ondblclick="box()"> Swap</button> -->
+      <button onmouseover="box()" onmouseleave="box()"> Swap</button>
+      
+
+      <script>
+            function box()
+            {
+              var z=document.getElementById("x")
+            var p=document.getElementById("y")
+   
+           var text1=z.innerText
+           var text2=p.innerText 
+
+            z.innerText=text2
+            p.innerText=text1
+
+            }
+
+            window.setInterval("box()",2000)
+
+      </script>
+
+  </body>
+</html>

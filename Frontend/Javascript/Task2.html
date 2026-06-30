@@ -1,0 +1,106 @@
+<html>
+  <head>
+  <style>
+       h1{
+           border: 2px solid red;
+           margin: 5px auto;
+           text-align: center;
+           width: 20%;
+           border-radius: 20px;
+           background: whitesmoke;
+       }
+
+       #btn
+       {
+        height: 50px;
+        width: 200px;
+        background: red;
+        margin-left: 530px;
+        margin-top: 40px;
+        border-radius: 30px;
+        border: 3px groove yellow;
+
+       }
+  </style>
+  </head>
+
+   <body>
+     <h1 id="1" style="color: red;">one</h1>  
+     <h1 id="2" style="color: black;">two</h1>  
+     <h1 id="3" style="color: darkblue;">three</h1>  
+     <h1 id="4" style="color: blanchedalmond;">four</h1>  
+     <h1 id="5" style="color: tan;">five</h1>  
+     <h1 id="6" style="color: darkcyan;">six</h1>  
+     <h1 id="7" style="color: brown;">seven</h1>  
+     <h1 id="8" style="color: gold;">Eight</h1>  
+     <h1 id="9" style="color: magenta;">Nine</h1>  
+     <h1 id="10" style="color: palevioletred;">ten</h1>  
+     <h1 id="11" style="color: green;">Eleven</h1>  
+     <h1 id="12" style="color: black;">Twelve</h1>  
+     <h1 id="13" style="color: orange;">thirteen</h1>  
+     <h1 id="14" style="color: maroon;">fourteen</h1>  
+     <h1 id="15" style="color: red;">fifteen</h1>  
+     
+
+     <button onclick="box()" id="btn">Swap</button>
+   <script>
+   function box()
+   {
+      var a1= document.getElementById("1")
+      var a2= document.getElementById("2")
+      var a3= document.getElementById("3")
+      var a4= document.getElementById("4")
+      var a5= document.getElementById("5")
+      var a6= document.getElementById("6")
+      var a7= document.getElementById("7")
+      var a8= document.getElementById("8")
+      var a9= document.getElementById("9")
+      var a10= document.getElementById("10")
+      var a11= document.getElementById("11")
+      var a12= document.getElementById("12")
+      var a13= document.getElementById("13")
+      var a14= document.getElementById("14")
+      var a15= document.getElementById("15")
+
+      var text1 =a1.innerText
+      var text2 =a2.innerText
+      var text3 =a3.innerText
+      var text4 =a4.innerText
+      var text5 =a5.innerText
+      var text6 =a6.innerText
+      var text7 =a7.innerText
+      var text8 =a8.innerText
+      var text9 =a9.innerText
+      var text10 =a10.innerText
+      var text11 =a11.innerText
+      var text12 =a12.innerText
+      var text13 =a13.innerText
+      var text14 =a14.innerText
+      var text15 =a15.innerText
+
+
+      a1.innerText=text15
+      a2.innerText=text1
+      a3.innerText=text2
+      a4.innerText=text3
+      a5.innerText=text4
+      a6.innerText=text5
+      a7.innerText=text6
+      a8.innerText=text7
+      a9.innerText=text8
+      a10.innerText=text9
+      a11.innerText=text10
+      a12.innerText=text11
+      a13.innerText=text12
+      a14.innerText=text13
+      a15.innerText=text14
+
+     
+        
+   }
+
+  
+
+   </script>
+  </body>
+</html>

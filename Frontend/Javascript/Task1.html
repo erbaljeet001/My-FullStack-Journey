@@ -1,0 +1,43 @@
+<html>
+  <head>
+
+  </head>
+  <body>  <h2>CHECK PINCODE VALID OR NOTVALID</h2>
+        <p id="p"></p>
+    <input type="text" id="t">
+       <button onclick="demo()" id="btn"><b>Click to Check Valid or Invalid</b></button>
+       <script>
+        function demo()
+        {
+          var z= document.getElementById("p")
+          var x= document.getElementById("t")
+          var b= document.getElementById("btn")
+
+          var len= x.value.length
+          if(len==6)
+        {
+            //  alert("Valid Pincode")
+             t.style.border="3px solid green"
+             t.style.color="green"
+             b.style.background="green"
+             b.style.border="none"
+             z.innerText="Valid Pincode"
+             z.style.color="green"
+        }
+     else{
+        // alert("Invalid Pincode")
+        t.style.border="3px solid red"
+             t.style.color="red"
+             b.style.background="red"
+             b.style.border="none"
+             z.innerText="Invalid Pincode"
+            z.style.color="red"
+     }
+    
+          
+        }
+
+       </script>
+
+  </body>
+</html>

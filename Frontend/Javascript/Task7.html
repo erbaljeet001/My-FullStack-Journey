@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <style>
+       #cal
+       {
+          min-height:300px ;
+          width: 400px;
+          background: whitesmoke;
+          margin: 100px auto;
+          box-shadow: 0px 0px 50px black;
+          border-radius: 20px;
+          padding: 25px;
+          box-sizing: border-box;
+          
+       }
+       input
+       {
+          height: 50px;
+          width: 100%;
+          border-radius: 10px;
+          border: none;
+          margin:5px 0px;
+          padding-left: 20px;
+          box-sizing: border-box;
+          box-shadow: 0px 0px 10px black inset;
+       }
+       button{
+        height:50px ;
+        width: 50px;
+        border: none;
+        border-radius: 10px;
+        background: maroon;
+        color: white;
+        font-size: 30px;
+
+       }
+    </style> 
+  </head>
+  <body>
+         <div id="cal">
+          <div style="font-weight: bold; text-align: center; font-size: 24px;">Simple Calculator Using JS</div> 
+          <input type="number" id="t1" placeholder="Enter First number..."/> <br>
+           <input type="number" id="t2" placeholder="Enter second number..."/> <br>
+           <p id="msg"></p>
+           <button onclick="addfun()">+</button>
+           <button onclick="subfun()">-</button>
+           <button onclick="Mulfun()">x</button>
+           <button onclick="Divfun()">/</button>
+         </div>
+   
+          <script>
+       function addfun()
+       {
+           var t1 = document.querySelector("#t1")
+             var t2 = document.querySelector("#t2")
+              var num1= parseFloat(t1.value)
+              var num2= parseFloat(t2.value)
+
+              var res=(num1+num2)
+               
+              var m1= document.querySelector("#msg")
+
+              m1.innerHTML= `<b>Result is : </b> ${res.toFixed(3)}`      
+            
+       }
+
+       function subfun()
+       {
+           var t1 = document.querySelector("#t1")
+             var t2 = document.querySelector("#t2")
+              var num1= parseFloat(t1.value)
+              var num2= parseFloat(t2.value)
+
+              var res=(num1-num2)
+               
+              var m1= document.querySelector("#msg")
+
+              m1.innerHTML= `<b>Result is : </b> ${res.toFixed(3)}`  
+       }
+
+       function Mulfun()
+       {
+           var t1 = document.querySelector("#t1")
+             var t2 = document.querySelector("#t2")
+              var num1= parseFloat(t1.value)
+              var num2= parseFloat(t2.value)
+
+              var res=(num1*num2)
+               
+              var m1= document.querySelector("#msg")
+
+              m1.innerHTML= `<b>Result is : </b> ${res.toFixed(3)}`      
+            
+       }
+
+       function Divfun()
+       {
+           var t1 = document.querySelector("#t1")
+             var t2 = document.querySelector("#t2")
+              var num1= parseFloat(t1.value)
+              var num2= parseFloat(t2.value)
+
+              var res=(num1/num2)
+               
+              var m1= document.querySelector("#msg")
+
+              m1.innerHTML= `<b>Result is : </b> ${res.toFixed(3)}`       
+            
+       }
+
+
+
+          </script>
+
+  </body>
+</html>

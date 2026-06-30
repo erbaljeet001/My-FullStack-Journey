@@ -1,0 +1,576 @@
+<html>
+  <head> 
+    <style>
+      #outer
+      {
+        min-height: 1000px;
+        width: 1200px;
+        border: 1px solid black;
+        margin: 0px auto;
+
+      }
+      #top
+      {
+        height: 40px;
+        width: 1200px;
+        background: #223d4f;
+        color: white;
+        padding-left: 150px;
+        padding-right: 150px;
+        box-sizing: border-box;
+      }
+      .tpart
+      {
+        height:40px;
+        width: 300px;
+        float: left;
+        line-height: 40px;
+        
+
+      }
+      #header
+      {
+        width: 1200px;
+        height: 70px;
+        background: whitesmoke;
+        padding-left: 150px;
+        padding-right: 150px;
+        box-sizing: border-box;
+        background: rgb(247, 229, 194);
+      }
+      #logo
+      {
+        height: 70px;
+        width: 200px;
+        float: left;
+        /* background: yellow; */
+        line-height: 70px;
+      }
+      #menu 
+      {
+        height: 70px;
+        width: 700px;
+        float: left;
+        /* background: aqua; */
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        
+      }
+      #menu ul
+      {
+        list-style-type: none;
+      }
+      #menu ul li{
+        height: 40px;
+        width: 80px;
+        /* background: red; */
+        /* border: 1px solid black; */
+        text-align: center;
+        line-height: 40px;
+        float: left;
+        transform: translateY(-3px);
+        font-weight: bold;
+        transition: all .5s;
+        border-radius: 3px;
+      }
+      #menu ul li:hover
+      {
+        background: red;
+        transition: all .5s;
+        color: white;
+      }
+      #slider
+      {
+        height: 500px;
+        width: 1200px;
+        /* background: url(images/image10.jpg); */
+        background :linear-gradient(rgba(222,220,233,.4)),url("images/image10.jpg") ;
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+        text-align: center;
+        padding-top: 150px;
+        box-sizing: border-box;
+        padding-left: 150px;
+        padding-right: 150px;
+        
+
+      }
+
+      #h
+      {
+        font-size: 50px;
+        background: #223d4f;
+       
+      }
+  
+      #services
+      {
+        height: 250px;
+        width: 1200px;
+        /* background: red; */
+        padding-left: 150px;
+        padding-right: 150px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background: rgb(236, 217, 183);
+        
+        
+      }
+
+      .s
+      {
+        height: 230px;
+        width: 280px;
+        background: rgb(236, 232, 232);
+      float: left;
+      transform: translateY(-60px);
+      box-shadow: 0px 0px 40px rgba(0, 0,0, .2) ;
+      border-radius: 4px;
+      margin: 10px;
+      padding: 25px;
+      box-sizing: border-box;
+      text-align: justify;
+
+      }
+
+      #Intro
+      {
+             min-height:500px;
+             width: 1200px;
+            background: rgb(238, 222, 192);
+            padding : 50px 150px;
+            box-sizing: border-box;
+            text-align: justify;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 6px;
+      }
+      #contactUs{
+            background: wheat;
+            min-height: 500px;
+            width: 1200px;
+            padding: 25px 150px;
+            box-sizing: border-box;
+            font-weight: bold;
+            margin-bottom: 6px;
+            
+      }
+
+  #contact
+  {
+    min-height: 350px;
+    width: 900px;
+    background: aqua;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    
+  }
+
+  #c1
+  {
+    height: 350px;
+    width: 400px;
+    /* background: gray; */
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+
+  .txt
+  {
+         width: 100%;
+         height: 45px;
+         border: none;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        
+        
+  }
+  textarea{
+    height: 80px !important;
+  }
+  .btn1
+  {
+      height: 45px;
+      width: 100%;
+      background: red;
+      color: white;
+      border-radius: 10px;
+
+
+  }
+
+   #c2
+  {
+    min-height: 350px;
+    width: 500px;
+    /* background: rgb(213, 213, 20); */
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+
+  #gallery
+  {
+          background: wheat;
+            min-height: 500px;
+            width: 1200px;
+            padding: 25px 150px;
+            box-sizing: border-box;
+  }
+  #glry
+  {
+     min-height: 20px;
+     width: 900px;
+
+     font-size: 30px;
+     text-align: center;
+     font-weight: bold; 
+    margin-top: 5px;
+     /* padding: 25px 180px; */
+     
+     
+
+  }
+  #outer2
+  {
+    min-height: 580px;
+    width: 900px;
+
+  }
+  #row
+  {
+    height: 290px;
+    width: 900px;
+    /* background: white; */
+    /* float: left; */
+   
+    padding: 15px 20px;
+  }
+  
+  .col
+  {
+    height: 290px;
+    width: 300px;
+    /* background: rgb(236, 236, 229); */
+    float: left;
+    padding: 20px;
+    margin-left: 10px auto;
+    /* margin: 5px auto; */
+    box-sizing: border-box;
+     box-shadow: 0px 0px 15px 12px gray;
+     border-radius: 20px;
+     transition: all .5s;
+  }
+    .col img{
+         height: 100%;
+         width: 100%;
+      }
+    .col:hover{
+     
+     border-radius: 2px;
+      transform: scale(1.1);
+      background: white;
+      transition: all .5s;
+    }  
+  
+
+  #login
+  {
+       min-height: 500px;
+       width: 1200px;
+       background: rgb(240, 225, 198);
+       padding-left: 150px;
+       padding-right: 150px;
+       box-sizing: border-box;
+       margin-bottom: 3px;
+  }
+  
+  #border
+  {
+    min-height:410px ;
+    width: 900px;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: aqua;
+
+  }
+  #left
+  {
+    min-height: 410px;
+    width: 500px;
+    background: gray;
+    float: left;
+  }
+
+
+  .btn{
+    height: 45px;
+    width: 60%;
+    margin-left: 70px;
+    background: red;
+    color: white;
+    margin-top: 80px;
+    border-radius: 10px;
+  }
+  .a
+  {
+     font-size: 30px;
+     text-align: center;
+     margin: 50px auto;
+  } 
+  #right
+  {
+    background: aqua;
+    min-height: 410px;
+    width: 370px;
+   
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .txt{
+   padding-left: 30px;
+   box-sizing: border-box;
+   background: rgb(204, 197, 197);
+   border: none;
+   border-radius: 10px;
+   border-bottom: 2px solid black;
+   background: transparent;
+   height: 40px;
+     
+  }
+
+  #ufooter
+  {
+    height: 500px;
+    width: 1200px;
+    background: rgb(234, 216, 183);
+    padding-left: 150px;
+    padding-right: 150px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    
+  }
+
+  #bfooter
+  {
+    min-height: 45px;
+    width: 1200px;
+    background: green;
+    border-top: 2px solid white;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+
+  }
+  #box
+  {
+       min-height: 500px;
+       width: 900px;
+       background: white;
+       margin: 5px 20px;
+  }
+  #f1
+  {
+    min-height: 500px;
+    width: 300px;
+    background : gray;
+    float: left;
+  }
+ 
+
+ 
+    </style>
+  </head>
+  <body>
+      <div id="outer">
+        <div id="top">
+          <div class="tpart">9156436985,7250482145</div>
+          <div class="tpart" style="text-align: center;">
+            <div >
+              code24x7@gmail.com
+            </div>
+          </div>
+          <div class="tpart">
+            <div style="text-align: right;">An ISO 9001:2015 Certified SW Company</div>
+          </div>
+        </div>
+
+        <div id="header"> 
+          <div id="logo" style="font-size: 30px; text-align: center; font-weight: bold;">
+            code<b style="color: red;">24x7</b>
+          </div>
+          <div id="menu">
+            <ul>
+              <a><li>Home</li></a>
+              <a><li>About Us</li></a>
+              <a><li>Register</li></a>
+              <a><li>Contact</li></a>
+              <a><li>Gallery</li></a>
+              <a><li>Service</li></a>
+              <a><li>login</li></a>
+            </ul>
+          </div>
+        </div>
+
+        <div id="slider">
+          <div id="h">Welcome to <b style="color: black;">Code</b><b style="color: red; backdrop-filter: blur;">24x7</b> Pvt. Ltd.
+          </div>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dolore architecto quae nostrum itaque, iste sequi voluptatum? Sunt cum necessitatibus exercitationem sed sit et culpa, ipsum dolor. Provident, dignissimos placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi pariatur esse tempora quae aliquid assumenda mollitia praesentium laboriosam voluptatem consectetur. At odio ex nobis sunt tempore eos distinctio ipsa earum.</p>
+           <a href="#" style="text-decoration: none; color: white; background: red; padding: 10px 20px;">Register Now</a>
+        </div>
+
+        <div id="services">
+          <div class="s">
+     <b>  Heading 1 </b> <br>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, commodi. Cupiditate neque reprehenderit quis modi qui unde, iure architecto consequatur aut corporis tempora ipsam totam distinctio aspernatur et eveniet sequi.</p>
+
+          </div>
+          <div class="s" style="background: white;">
+            <b>  Heading 1 </b> <br>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, commodi. Cupiditate neque reprehenderit quis modi qui unde, iure architecto consequatur aut corporis tempora ipsam totam distinctio aspernatur et eveniet sequi.</p>
+          </div>
+          <div class="s">
+            <b>  Heading 1 </b> <br>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, commodi. Cupiditate neque reprehenderit quis modi qui unde, iure architecto consequatur aut corporis tempora ipsam totam distinctio aspernatur et eveniet sequi.</p>
+          </div>
+        </div>
+        <div id="Intro"> 
+          <p style="text-align: center; font-size: 30px;">About <b style="color: red;">Us </b>:</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, eaque error vel iste cumque veniam, odit nulla at cupiditate corrupti aspernatur atque ipsum officiis laudantium perspiciatis ea dolorem sapiente ab?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam cumque saepe natus dicta vel assumenda accusantium tempora nemo modi necessitatibus quos, et aut asperiores laborum facilis? Ratione porro quisquam, numquam ullam adipisci exercitationem, dignissimos quo vero, natus ipsam ex quaerat molestiae est veniam. A assumenda ipsum, odio, eum cupiditate inventore totam illum distinctio voluptatibus minima adipisci quam, quidem commodi. Dolor minima quas cumque illo exercitationem suscipit maiores delectus repudiandae optio quos et eligendi non reiciendis culpa dolore officiis, praesentium quasi autem. Est adipisci aperiam necessitatibus molestiae. Quos unde, enim neque eius iure rem voluptates nobis vitae sequi necessitatibus voluptas.
+          </p>
+        </div>
+        <div id="contactUs">
+          <div style="text-align: center; font-size: 30px;">Contact <b style="color: white;">Us </b>:</div>
+
+          <div id="contact">
+            <div id="c1">
+
+      <input type="text" class="txt" placeholder="Name..."> <br>
+      <input type="number" class="txt" placeholder="Phone Number..."> <br>
+      <input type="email" class="txt" placeholder="Email..."> <br>
+      <textarea class="txt" placeholder="Message..."></textarea> <br>
+      <input type="submit" class="btn1" value="Submit"> 
+
+            </div>
+            <div id="c2">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d14233.07603607751!2d80.9618354!3d26.8949564!3m2!1i1024!2i768!4f13.1!2m1!1stechpile%20pvt%20ltd%20on%20map!5e0!3m2!1sen!2sin!4v1781868005161!5m2!1sen!2sin" width="460px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">" title="techpile"></iframe>
+            </div>
+          </div>
+        </div>
+        <div id="gallery">
+            <div id="glry">Gallery Code<b style="color: red;">24x7</b></div> 
+            <div id="outer2">
+            <div id="row">
+                  <div class="col">
+                    <img  src="images/img01.jpg">
+                  </div>
+                  <div class="col">
+                    <img src="images/img02.jpg">
+                  </div>
+                  <div class="col">
+                    <img src="images/img03.jpg">
+                  </div>
+              
+            </div>
+            <div id="row">
+                 <div class="col">
+                    <img src="images/img05.jpg">
+                  </div>
+                  <div class="col">
+                    <img src="images/img06.jpg">
+                  </div>
+                  <div class="col">
+                    <img src="images/img07.jpg">
+                  </div>
+              
+            </div>
+            </div>
+
+        </div>
+        <div id="login">
+          <div id="glry"><b style="color: black;">Login </b>Code<b style="color: red;">24x7  </b></div>
+          <div id="border">
+              <div id="left">
+                <div class="a"> <u>Welcome to <b style="color: red;">Code24x7</b> </u> </div>
+                <p style="text-align: justify; padding-left: 30px;padding-right: 30px; box-sizing: border-box; color: whitesmoke;"><b style="color: red;">Code24x7</b> is a leading software development company dedicated to delivering innovative, scalable, and high-quality digital solutions. We specialize in web development, mobile app development, SaaS platforms, AI-powered applications, and custom software solutions tailored to business needs. Our experienced team combines creativity, technology, and industry expertise to build secure, user-friendly, and performance-driven products. At Code24x7, we are committed to helping businesses grow through cutting-edge technology, reliable support, and continuous innovation.</p>
+              </div>
+              <div id="right">
+                <div class="a"> <b>User Login  </b> </div> 
+                <input type="text" placeholder="Name..." class="txt"> <br>
+                 <input type="password" placeholder="Password..." class="txt"> <br>
+                <button class="btn">Login</button>
+
+              </div>
+          </div>
+        </div>
+        <div id="ufooter">
+             <div id="box">
+              <div id="f1"> 
+                <div class="a"><u> Contact to Code<b style="color: red;">24x7</b></u> </div>
+                <div >
+                  <ul><li><b style="font-size: 20px;">Phone Number</b> : <b style="color: whitesmoke;">+91234353232</b></li></ul> 
+                  <ul><li><b style="font-size: 20px;">Email Address </b> : <b style="color: whitesmoke;">info@code24x7</b> </li> </ul> 
+                  <ul><li><b style="font-size: 20px;">Location </b> : <b style="color: whitesmoke;" >Luckonow,  UP</b></li><ul>
+                      <br> 
+                   
+                     
+                </div>
+                <div style="text-align: justify;padding-left: 20px; padding-right: 20px; box-sizing: border-box; color: whitesmoke;"><b>Our office is conveniently located to serve clients with professional and reliable technology solutions. We welcome visitors during business hours and are always available to discuss your requirements. Feel free to visit us or reach out online for quick assistance and support. We look forward to connecting with you and helping your business grow through technology right: 20px; box-sizing:</b></div>
+              </div>
+              <div id="f1">
+
+    <div class="a"><u>Training <b style="color: red;">&</b> Courses</u></div>
+    <div>
+        <ul>
+            <li><b style="font-size: 20px;">Top Courses</b> : <b style="color: whitesmoke;">Explore industry-focused courses designed to build strong technical skills.</b></li>
+        </ul>
+
+        <ul>
+            <li><b style="font-size: 20px;">Advanced Training</b> : <b style="color: whitesmoke;">Gain practical experience through expert-led advanced training programs.</b></li>
+        </ul>
+        <ul>
+            <li><b style="font-size: 20px;">Learning Programs</b> : <b style="color:whitesmoke;">Structured programs that help students achieve their learning goals.</b></li>
+        </ul>
+        <ul>
+            <li><b style="font-size: 20px;">Certification Courses</b> : <b style="color: whitesmoke;">Earn industry-recognized certificates to showcase your expertise.</b></li>
+        </ul>
+    </div>
+
+</div>
+
+              <div id="f1">
+                <div class="a"> <u>Training <b style="color: red;">&</b> Facilities</u> </div>
+                <div >
+                  <ul>
+            <li><b style="font-size: 20px;">Top Courses</b> : <b style="color: whitesmoke;">Explore industry-focused courses designed to build strong technical skills.</b></li>
+        </ul>
+
+        <ul>
+            <li><b style="font-size: 20px;">Advanced Training</b> : <b style="color: whitesmoke;">Gain practical experience through expert-led advanced training programs.</b></li>
+        </ul>
+        <ul>
+            <li><b style="font-size: 20px;">Learning Programs</b> : <b style="color:whitesmoke;">Structured programs that help students achieve their learning goals.</b></li>
+        </ul>
+                   
+                     
+                </div>
+                <div style="text-align: justify;padding-left: 20px; padding-right: 25px; box-sizing: border-box; color: whitesmoke;"><b>Our office is conveniently located to serve clients with professional and reliable technology solutions. We welcome visitors during business hours and are always available to discuss your requirements.</b></div>
+              </div> </div>
+             
+        </div>
+        <div id="bfooter">
+          Designed and Developed By : Baljeet
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+  <head>
+   <style>
+
+
+ input{
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 5px;
+
+ }
+ #btn
+ {
+  width: 100px;
+  background: aqua;
+ }
+   </style>
+  </head>
+
+  <body>
+      <input type="password" id="t1"/>
+      <input type="button" onclick="demo()" id="btn" value="Show"/>
+ 
+      <script>
+        function demo()
+        {
+              var t= document.getElementById("t1")
+              var b= document.getElementById("btn")
+              // alert(b.value)
+
+              if(b.value=="Show")
+
+              {
+                 b.value= "Hide"
+                 t.type="text"
+                 t.style.color="green"
+                 b.style.background="green"
+                 t.style.border="5px groove yellowgreen"
+                 
+
+              }
+              else
+              {
+                   b.value="Show"
+                   t.type="password" 
+                   b.style.background="red"
+                   t.style.color="red"
+
+              }
+
+        }
+      </script>
+  </body>
+</html>

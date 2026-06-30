@@ -1,0 +1,52 @@
+<html>
+  <head>
+
+    <style>
+
+      h1
+      {
+        height: 400px;
+        width: 300px;
+        background: red ;
+        text-align: center;
+        line-height: 300px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h1 id="h">Techpile</h1>
+    <button onclick="box()">click me</button>
+    <script>
+
+      function box()
+      {
+        var x=confirm("Are you sure want to set style on  h1 tag ")
+        alert(x)
+
+        var y= document.getElementById("h")
+        if(x==true)
+        
+        {
+              y.style.background="yellow"
+              y.style.color="red"
+              y.style.border="5px solid black "  
+              y.style.transform="rotate(180deg)"
+              y.style.transition="all 2s"
+              y.style.margin="100px auto"
+
+
+        }
+        else
+        {
+             alert("Sorry")
+             y.style.background="url(x.jpg)"
+        }
+
+      }
+
+
+    </script>
+  </body>
+</html>

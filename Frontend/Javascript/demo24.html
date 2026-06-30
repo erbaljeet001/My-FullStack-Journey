@@ -1,0 +1,45 @@
+<html>
+       <head>
+     <style>
+      #btn
+      {
+           height: 50px;
+           width: 100px;
+           border: 5px groove black;
+           border-radius: 50px;
+           background: red;
+           margin-left:150px;
+      }
+     </style>
+       </head>
+
+       <body>
+            <img src="images/bulbwhite.webp"  height="400px" width="" id="img1"/> <br>
+            <input type="button" onclick="demo()" value="ON" id="btn"> 
+
+            <script>
+
+              function demo()
+              {
+                  var im= document.getElementById("img1")
+                  var b= document.getElementById("btn")
+
+                  if(b.value=="ON")
+                  {
+                     b.value="OFF"
+                     im.src="images/Glowbulb.jpg"
+                    
+                     b.style.background="green"
+
+                  }
+                  else{
+                    b.value="ON"
+                    im.src="images/bulbwhite.webp"
+                    b.style.background="red"
+                  }
+              }
+            //  setInterval(demo,1000)
+            </script>
+
+       </body>
+</html>

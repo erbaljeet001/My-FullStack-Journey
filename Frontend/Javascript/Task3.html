@@ -1,0 +1,119 @@
+<html>
+  <head>
+   <style>
+
+
+#box
+{
+  min-height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 100px auto;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(103, 65, 65) inset ;
+    
+
+}
+    input
+    {
+      border: 2px solid gray;
+      border-radius: 20px;
+      width: 100%;
+      margin-top: 20px;
+      padding-left: 10px;
+      box-shadow: 0px 0px 20px gray inset;
+      
+    }
+
+    #btn
+    {
+        height: 30px;
+        width: 70%;
+        margin-left: 40px;
+        margin-top: 20px;
+        border: 2px groove black;
+        border-radius: 20px;
+        background: red;
+    }
+   </style>
+  </head>
+  <body>
+       <div id="box">
+
+        <input type="text" id="name" placeholder="Name...">
+        <p id="msg1"></p> 
+        <br>
+      <input type="text" id="fname" placeholder="Father's Name..."> <p id="msg2"></p>  <br>
+      <input type="text" id="Mname" placeholder="Mother's  Name..."><p id="msg3"></p>  <br>
+      <input type="text" id="addr" placeholder="Full Address..."> 
+      <p id="msg4"></p> <br>
+
+      <input type="number" id="mb" placeholder="Mobile No..."> 
+      <p id="msg12"></p> <br>
+      <input type="number" id="pin" placeholder="Pin code..."> <p id="msg5"></p> <br>
+      <input type="text" id="Dist" placeholder="District..."> <p id="msg6"></p> <br>
+      <input type="date" id="dob" placeholder="DOB..."> <p id="msg7"></p> <br>
+      <input type="text" id="st" placeholder="State..."> 
+      <p id="msg8"></p> <br>
+      <input type="text" id="con" placeholder="Country..."> 
+      <p id="msg9"></p> <br>
+      <input type="text" id="pro" placeholder="Profession..."> 
+      <p id="msg10"></p>  <br>
+      <input type="number" id="sal" placeholder="Salary...">
+      <p id="msg11"></p> 
+   <br>
+      <button onclick="demo()"  id="btn">Print Data</button> 
+
+
+      <script>
+                 function demo()
+                 {
+                  var t1=document.getElementById("name")
+                  var t2=document.getElementById("fname")
+                  var t3=document.getElementById("Mname")
+                  var t4=document.getElementById("addr")
+                  var t5=document.getElementById("pin")
+                  var t6=document.getElementById("Dist")
+                  var t7=document.getElementById("dob")
+                  var t8=document.getElementById("st")
+                  var t9=document.getElementById("con")
+                  var t10=document.getElementById("pro")
+                  var t11=document.getElementById("sal")
+                  var t12=document.getElementById("mb")
+                 
+                  var m1= document.getElementById("msg1")
+                  var m2= document.getElementById("msg2")
+                  var m3= document.getElementById("msg3")
+                  var m4= document.getElementById("msg4")
+                  var m5= document.getElementById("msg5")
+                  var m6= document.getElementById("msg6")
+                  var m7= document.getElementById("msg7")
+                  var m8= document.getElementById("msg8")
+                  var m9= document.getElementById("msg9")
+                  var m10= document.getElementById("msg10")
+                  var m11= document.getElementById("msg11")
+                  var m12= document.getElementById("msg12")
+
+                  m1.innerHTML=`<b>Name is : </b>${t1.value}`
+                  m2.innerHTML=`<b>Father's Name is : </b>${t2.value}`
+                  m3.innerHTML=`<b>Mother's Name is : </b>${t3.value}`
+                  m4.innerHTML=`<b>Address is : </b>${t4.value}`
+                  m5.innerHTML=`<b>Pin code is : </b>${t5.value}`
+                  m6.innerHTML=`<b>District is : </b>${t6.value}`
+                  m7.innerHTML=`<b>Date of Birth is : </b>${t7.value}`
+                  m8.innerHTML=`<b>State is : </b>${t8.value}`
+                  m9.innerHTML=`<b>Country is : </b>${t9.value}`
+                  m10.innerHTML=`<b>Profession is : </b>${t10.value}`
+                  m11.innerHTML=`<b>Salary is : </b>${t11.value}`
+                  m12.innerHTML=`<b>Mobile no. is : </b>${t12.value}`
+                  
+                    
+                 }
+
+      </script>
+       </div>
+
+  </body>
+</html>

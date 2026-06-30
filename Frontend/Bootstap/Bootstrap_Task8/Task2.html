@@ -1,0 +1,138 @@
+<html>
+
+<head>
+  
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        .my-background {
+            background: linear-gradient(
+                rgba(101, 171, 224, 0.5),
+                rgba(186, 10, 209, 0.5)
+            );
+            min-height: 100vh;
+            padding: 50px 0;
+        }
+
+        .form-box {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+        }
+
+        .header {
+            min-height: 100px;
+        }
+
+        .register-btn {
+            background: linear-gradient(
+                rgba(101, 171, 224, 0.8),
+                rgba(186, 10, 209, 0.8)
+            );
+            border: none;
+        }
+
+        .register-btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body class="my-background">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+
+                <div class="form-box">
+
+                    
+                    <div class="header p-4">
+                        <h1><b>Registration</b></h1>
+                    </div>
+
+                    
+                    <div class="row px-4 pb-3">
+
+                        
+                        <div class="col-md-6">
+
+                            <div class="mb-3">
+                                <label class="form-label fs-5 fw-bold">Full Name</label>
+                                <input type="text" class="form-control" placeholder="Enter your name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label fs-5 fw-bold">Email</label>
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label fs-5 fw-bold">Password</label>
+                                <input type="password" class="form-control" placeholder="Enter your password">
+                            </div>
+
+                        </div>
+
+                        
+                        <div class="col-md-6">
+
+                            <div class="mb-3">
+                                <label class="form-label fs-5 fw-bold">Username</label>
+                                <input type="text" class="form-control" placeholder="Enter your username">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label fs-5 fw-bold">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Enter your number">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label fs-5 fw-bold">Confirm Password</label>
+                                <input type="password" class="form-control" placeholder="Confirm your password">
+                            </div>
+
+                        </div>
+                    </div>
+
+                
+                    <div class="px-4">
+                        <h3><b>Gender</b></h3>
+
+                        <div class="d-flex flex-wrap gap-5 fs-5 mt-3 ">
+                            <label>
+                                <input type="radio" name="gender" value="Male">
+                                Male
+                            </label>
+
+                            <label>
+                                <input type="radio" name="gender" value="Female">
+                                Female
+                            </label>
+
+                            <label>
+                                <input type="radio" name="gender" value="Not Prefer to Say">
+                                Not Prefer to Say
+                            </label>
+                        </div>
+                    </div>
+
+                    
+                    <div class="text-center p-4">
+                        <button class="btn register-btn text-white fs-4 px-5 py-2 w-75">
+                            <b>Register</b>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
