@@ -9,7 +9,7 @@ Welcome to **My Full-Stack Journey** - A comprehensive learning repository docum
 - [Backend](#backend)
 - [Frontend](#frontend)
 - [Getting Started](#getting-started)
-- [Resources](#resources)
+
 
 ---
 
@@ -221,15 +221,7 @@ Complete web projects showcasing full-stack concepts:
 
 ---
 
-## Resources
 
-- **HTML Reference:** [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- **CSS Reference:** [MDN Web Docs - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- **JavaScript Guide:** [MDN Web Docs - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- **Bootstrap Documentation:** [Bootstrap Official Docs](https://getbootstrap.com/docs)
-- **SQL Reference:** [SQL Tutorial](https://www.w3schools.com/sql/)
-
----
 
 ## File Organization Tips
 
@@ -251,7 +243,7 @@ Each folder contains:
 
 ---
 
-## Author
+## Author : Baljeet Kumar Yadav
 
 This learning repository documents my full-stack development journey, tracking progress from foundational web technologies through advanced project work.
 
