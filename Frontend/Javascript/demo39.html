@@ -1,0 +1,37 @@
+<html>
+  <head></head>
+  <body>
+    <select onchange="demo()">
+      <option>-- SELECT OPTION --</option>
+      <option>HTML</option>
+      <option>CSS</option>
+      <option>JAVASCRIPT</option>
+      <option>JQUERY</option>
+      <option>BOOTSTRAP</option>
+    </select>
+    <br />
+    <input type="number" />
+    <script>
+      function demo() {
+        var dd1 = document.querySelector("select");
+        // alert(dd1.value)
+
+        var i = document.querySelector("input");
+
+        var v = dd1.value;
+
+        if (v == "HTML") {
+          i.value = 2000;
+        } else if (v == "CSS") {
+          i.value = 3000;
+        } else if (v == "JAVASCRIPT") {
+          i.value = 4000;
+        } else if (v == "JQUERY") {
+          i.value = 5000;
+        } else {
+          i.value = 6000;
+        }
+      }
+    </script>
+  </body>
+</html>

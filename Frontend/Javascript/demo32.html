@@ -1,0 +1,43 @@
+<html>
+  <head>
+         <style>
+
+             img{
+              min-height: 200px;
+              width: 400px;
+              margin-top: 20px;
+              border: 2px solid  aqua;
+              box-shadow: 0px 0px 30px gray;
+              border-radius: 10px;
+              padding: 25px;
+              box-sizing: border-box;
+
+                  
+             }
+         </style>
+  </head>
+  <body>
+       <center style="font-weight: bold;">Simple Image Slider <br>
+         <img src="images/img02.jpg"  id="im1"/>
+       </center>
+       
+
+       <script>
+         var arr= ["images/img01.jpg","images/img04.jpg","images/img05.jpg","images/img3.jpg","images/img07.jpg","images/img1.jpg"];
+
+             var i=0
+        setInterval(function(){
+          var im= document.querySelector("#im1")
+            im.src=arr[i];
+
+            i++;
+
+            if(i ==arr.length)
+            {
+              i=0;
+            }
+        },2000)
+       
+       </script>
+  </body>
+</html>

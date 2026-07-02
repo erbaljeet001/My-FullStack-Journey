@@ -26,28 +26,49 @@ This repository contains a collection of learning materials, code samples, and p
 
 A visual overview of the key pages and UI sections included in this journey:
 
-<p align="center">
-  <img src="assets/Screenshots/HomePage1.png" alt="Home Page 1" width="300" />
-  <img src="assets/Screenshots/HomePage2.png" alt="Home Page 2" width="300" />
-  <img src="assets/Screenshots/LoginPage.png" alt="Login Page" width="300" />
-</p>
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/HomePage1.png" alt="Home Page 1" width="800" />
+</div>
 
-<p align="center">
-  <img src="assets/Screenshots/LoginPage2.png" alt="Login Page 2" width="300" />
-  <img src="assets/Screenshots/RegistrationForm.png" alt="Registration Form" width="300" />
-  <img src="assets/Screenshots/Aboutus2.png" alt="About Us Page" width="300" />
-</p>
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/HomePage2.png" alt="Home Page 2" width="800" />
+</div>
 
-<p align="center">
-  <img src="assets/Screenshots/AboutusPage1.png" alt="About Us Page 1" width="300" />
-  <img src="assets/Screenshots/ContactUsPage.png" alt="Contact Us Page" width="300" />
-  <img src="assets/Screenshots/Footer_ContactPage.png" alt="Footer Contact Page" width="300" />
-</p>
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/LoginPage.png" alt="Login Page" width="800" />
+</div>
 
-<p align="center">
-  <img src="assets/Screenshots/GalleryPage.png" alt="Gallery Page" width="300" />
-  <img src="assets/Screenshots/ChessBoard.png" alt="Chess Board" width="300" />
-</p>
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/LoginPage2.png" alt="Login Page 2" width="800" />
+</div>
+
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/RegistrationForm.png" alt="Registration Form" width="800" />
+</div>
+
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/Aboutus2.png" alt="About Us Page" width="800" />
+</div>
+
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/AboutusPage1.png" alt="About Us Page 1" width="800" />
+</div>
+
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/ContactUsPage.png" alt="Contact Us Page" width="800" />
+</div>
+
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/Footer_ContactPage.png" alt="Footer Contact Page" width="800" />
+</div>
+
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/GalleryPage.png" alt="Gallery Page" width="800" />
+</div>
+
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/ChessBoard.png" alt="Chess Board" width="800" />
+</div>
 
 ---
 

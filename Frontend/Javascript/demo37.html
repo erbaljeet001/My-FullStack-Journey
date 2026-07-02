@@ -1,0 +1,34 @@
+<html>
+
+
+<head>
+
+</head>
+
+<body>
+   <p></p>
+   <button onclick="demo()">Click me to Show Dropdown List</button>    
+  <script>
+     var  demo=()=> // function demo() ke place pe arrow function 
+      {
+          var p= document.querySelector("p")
+    var arr=["HTML","CSS","JS","JQUERY","SQL"]
+    var res="<select>"
+     for(var data in arr)
+     { 
+       
+        res=res+"<option>"+ arr[data] + "</option>"
+        
+      
+     }  
+       
+       
+     p.innerHTML="<b>"+res+"<b>"+"</select>"; 
+      }
+
+      
+      
+    
+  </script>
+</body>
+</html>

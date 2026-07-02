@@ -1,0 +1,26 @@
+<html>
+  <head></head>
+  <body>
+    <select onchange="demo()">
+     <option>-- SELECT OPTION --</option>
+      <option>HTML</option>
+      <option>CSS</option>
+      <option>JAVASCRIPT</option>
+      <option>JQUERY</option>
+      <option>BOOTSTRAP</option>
+    </select>
+
+    <p></p>
+
+    <script>
+         function demo()
+         {
+            var dd1= document.querySelector("select")
+            // alert(dd1.value)
+          var p=document.querySelector("p")
+           p.innerHTML="<b> Selected Course is : </b>"+dd1.value
+         }
+    </script>
+
+  </body>
+</html>
