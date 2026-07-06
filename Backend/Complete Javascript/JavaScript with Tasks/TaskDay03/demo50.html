@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script>
+      let nums = [10, 20, 30, 40, 50]
+        console.log("Original :",nums);
+        
+        nums.push(100)
+        console.log("after push ",nums);
+        nums.pop()
+        console.log("after pop",nums);
+      console.log("after join",nums.join("="));
+      console.log("after reverse",nums.reverse());
+      console.log("Using forEach");
+      nums.forEach((item)=>
+   { 
+        
+        console.log(item);
+        
+   });
+
+   let res2= nums.reduce((sum,item)=>
+   sum+=item,0);
+console.log("total sum",res2);
+
+console.log("after slice ",nums.slice(1,4));
+console.log("after splice ",nums.splice(1,2));
+
+      
+      
+         
+         
+        
+        
+        
+        
+
+        
+         
+   </script>
+</head>
+<body>
+  
+</body>
+</html>

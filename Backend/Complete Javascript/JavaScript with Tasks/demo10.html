@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      // 1. No Parameter and  return value
+      const demo = () => {
+        let z;
+        let x = 10;
+        let y = 5;
+        z = x + y;
+        console.log(z);
+      };
+      demo();
+
+      // 2. No parameter with return value
+
+      const demo1 = () => {
+        let x = 10,
+          y = 8;
+        let z = x - y;
+        return z;
+      };
+      let x = demo1();
+      console.log(x);
+
+      // 3. one parameter with no return type
+
+      const demo2 = (x, y) => {
+        let z;
+        z = x + y;
+        console.log(z);
+      };
+
+      demo2(20, 10);
+
+      // 4. one parameter with return type
+
+      const demo3 = (x, y) => {
+        let z = x * y;
+        return z;
+      };
+
+      let m = demo3(10, 5);
+      console.log(m);
+    </script>
+  </head>
+  <body></body>
+</html>

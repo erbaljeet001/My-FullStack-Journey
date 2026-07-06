@@ -1,0 +1,26 @@
+Ternary operator 
+  
+  -- SYNTAX --
+: condition ? true : false;
+
+TYPES OF operator 
+1: Arithmatic operator
+2: Assignment operator
+3: comparison operator
+4: logical operator
+5: string operator
+6: Ternary operator
+
+
+
+
+
+=====================
+ Function : block of reusable code .
+Types of Function : 
+1. Named Function/ Traditional Function
+2. Function expression/ anonymous Function
+3. Arrow Function
+4. Immediately Invoked Function expression(iife)
+5. Async  Function 
+
