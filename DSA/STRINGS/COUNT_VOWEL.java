@@ -1,6 +1,4 @@
 package DSA.STRINGS;
-
-
 public class COUNT_VOWEL{
         public static void Countvowel(String str)
         {
@@ -10,21 +8,19 @@ public class COUNT_VOWEL{
             int count =0;
             for(int i=0;i<str.length();i++)
             {
-                 char currentchar = str.charAt(i); 
+                 char ch = str.charAt(i); 
             
-            
-            for(int j=0;j<vowel.length;j++)
-            {
-                 if(currentchar == vowel[j])
+                 if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' || ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
                  {
                      count++;
-                     break;
+                     
                  }
-            }
-            }
-            
-          System.out.println("the total number of Vowel present in String :"+count);
         }
+        
+           System.out.println("the total number of Vowel present in String :"+count);
+
+        }
+        
       
       public static void main(String[] args)
       {
@@ -33,3 +29,4 @@ public class COUNT_VOWEL{
           
       }
 }
+
