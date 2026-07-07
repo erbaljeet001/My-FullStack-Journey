@@ -1,4 +1,4 @@
-public class Solution {
+public class Sec_largest {
     public int getSecondLargest(int[] arr) {
         int n= arr.length;
         int largest = Integer.MIN_VALUE;
