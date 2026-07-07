@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      let name = "Rohan";
+      let age = 20;
+
+      let info = ` Hello, my name is ${name}, and i am ${age} year old! `;
+      console.log("Template string :", info);
+
+      let size = info.length;
+      console.log("Length : ", size);
+
+      console.log(info.toUpperCase());
+      console.log(info.toLowerCase());
+
+      let isMatchName = info.match("Rohan");
+      let isMatchAge = info.match("20");
+      console.log(isMatchName);
+      console.log(isMatchAge);
+
+      console.log(info.slice(18, 23));
+      console.log(info.slice(34, 36));
+
+      console.log(info.replace("Rohan", "Baljeet Kumar Yadav"));
+      console.log(info.replace("20", "22"));
+
+      let splitText = info.split(" ,");
+      console.log(splitText);
+
+      let res = info.trim();
+      console.log(res);
+
+      console.log(info.includes("Rohan"));
+    </script>
+  </head>
+  <body></body>
+</html>
