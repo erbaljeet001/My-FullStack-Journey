@@ -2,9 +2,6 @@ package DSA.STRINGS;
 public class COUNT_VOWEL{
         public static void Countvowel(String str)
         {
-            char[] vowel={'a','i','o','u','e','A','E','I','U','O'};
-            
-            
             int count =0;
             for(int i=0;i<str.length();i++)
             {
