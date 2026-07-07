@@ -1,23 +1,29 @@
 package DSA.STRINGS;
+
 import java.util.*;
 
-public class INPUT_OUTPUT 
-{
-   public static void main(String[] args) {
-     {
-       Scanner sc = new Scanner(System.in);
-       
-       System.out.println("Enter the name :");
+public class INPUT_OUTPUT {
 
-       String T = sc.nextLine();
-       System.out.println("name :" + T);
-       
-       System.out.println("Enter the name :");
-       String x = sc.next();
-       System.out.println("name :" + x);
-       
-       
-
+    public static String getFullName(Scanner sc) {
+        System.out.print("Enter the full name: ");
+        return sc.nextLine();
     }
-   }
+
+    public static String getFirstName(Scanner sc) {
+        System.out.print("Enter the first name: ");
+        return sc.next();
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String fullName = getFullName(sc);
+        System.out.println("Full Name: " + fullName);
+
+        String firstName = getFirstName(sc);
+        System.out.println("First Name: " + firstName);
+
+      
+    }
 }
