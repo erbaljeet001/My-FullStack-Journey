@@ -79,19 +79,47 @@ A visual overview of the key pages and UI sections included in this journey:
 
 ```
 My-FullStack-Journey/
+├── assets/
+│   └── Screenshots/
 ├── Backend/
+│   ├── Node Js/
+│   │   └── TASK_DAY06/
 │   └── SQL/
+├── DSA/
+│   ├── ARRAYS/
+│   │   ├── EASY/
+│   │   ├── MEDIUM/
+│   │   └── HARD/
+│   └── STRINGS/
 ├── Frontend/
 │   ├── Bootstrap/
+│   ├── Complete Javascript/
 │   ├── HTML-CSS/
-│   ├── Javascript/
 │   └── Projects/
+├── React/
+│   ├── demo/
+│   ├── Task_day01/
+│   ├── Task_Day02/
+│   ├── test1/
+│   ├── test2/
+│   ├── test3/
+│   ├── test4/
+│   └── test5/
 └── README.md
 ```
 
 ---
 
 ## Backend
+
+### Node Js (`Backend/Node Js/`)
+
+This folder contains Node.js learning material and task work:
+
+- **TASK_DAY06/** - Node.js task folder
+- Local Node.js exercises and project examples
+
+---
 
 ### SQL (`Backend/SQL/`)
 
@@ -108,6 +136,37 @@ This folder contains SQL learning materials and exercises:
 - SQL queries and syntax
 - Data manipulation and retrieval
 - Database design and management
+
+---
+
+## DSA
+
+### ARRAYS (`DSA/ARRAYS/`)
+
+This folder contains array-based data structure and algorithm practice:
+
+- Easy, Medium, and Hard array exercises
+- Algorithmic problem-solving with Java
+
+---
+
+### STRINGS (`DSA/STRINGS/`)
+
+This folder contains string algorithm practice in Java:
+
+- **BuiltIn.java**
+- **COUNT_VOWEL.java**
+- **INPUT_OUTPUT.java**
+- **Palindrome_String.java**
+- **Str_Immutable.java**
+- **valid_Palindrome125.java**
+
+**Topics Covered:**
+
+- String manipulation
+- Palindrome checks
+- Input/output handling
+- Java string methods
 
 ---
 
@@ -139,7 +198,7 @@ Comprehensive HTML and CSS learning materials with 34+ demo files and practical 
 
 ---
 
-### JavaScript (`Frontend/Javascript/`)
+### Complete Javascript (`Frontend/Complete Javascript/`)
 
 Interactive JavaScript programming with 30+ demo files and practical exercises:
 
@@ -210,6 +269,17 @@ Complete web projects showcasing full-stack concepts:
 10. **WebPage1.html** - Custom webpage project
 11. **WebPage2.html** - Custom webpage project
 12. **images/** - Shared images and assets
+
+---
+
+## React
+
+This folder contains React learning work and demo apps:
+
+- **demo/** - React demo projects
+- **Task_day01/** - React task work
+- **Task_Day02/** - React task work
+- **test1/** to **test5/** - Additional React practice folders
 
 ---
 
