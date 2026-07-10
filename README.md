@@ -69,6 +69,9 @@ A visual overview of the key pages and UI sections included in this journey:
 <div align="center" style="margin-top: 24px; margin-bottom: 24px;">
   <img src="assets/Screenshots/ChessBoard.png" alt="Chess Board" width="800" />
 </div>
+<div align="center" style="margin-top: 24px; margin-bottom: 24px;">
+  <img src="assets/Screenshots/OutputPage_React.png" alt="Chess Board" width="800" />
+</div>
 
 ---
 
