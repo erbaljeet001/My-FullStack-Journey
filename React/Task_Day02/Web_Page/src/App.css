@@ -1,0 +1,107 @@
+#outer
+{
+    min-height: 1000px;
+    min-width: 1500px;
+    margin : 0px auto;
+}
+
+#Navbar
+{
+    height: 100px;
+    width: 1500px;
+
+    padding-left: 150px;
+    padding-right: 150px;
+    box-sizing: border-box;
+
+
+}
+#slider
+{
+  height:  550px;
+  width: 1500px;
+  background: white;
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+#textleft
+{
+    height: 550px;
+    width: 550px;
+
+    float: left;
+}
+#imgright
+{
+   height: 550px;
+   width: 750px;
+   
+   background-size: cover;
+   float: left;
+}
+#logo
+{
+    height: 60px;
+    width: 200px;
+    float: left;
+    line-height: 100px;
+    margin-top: 10px;
+    
+}
+#logoleft
+{
+    height: 60px;
+    width: 40px;
+    float: left;
+}
+#logoright
+{
+    height: 60px;
+    width: 120px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transform: translateY(-10px);
+    box-sizing: border-box;
+}
+
+
+#menu
+{
+    height: 100px;
+    width: 1000px;
+   
+    float: left;
+}
+#menu ul{
+    list-style: none;
+    margin-left: 460px;
+}
+
+#menu ul li{
+     height: 40px;
+     width: 100px;
+     text-align: center;
+     float: left; 
+     line-height: 50px;
+     box-sizing: border-box;
+     font-size: 20px;
+}
+
+#btn
+
+{
+  height: 50px;
+  width: 200px;
+   margin-top: 100px;
+   margin-left: 80px;
+   background: rgb(38, 38, 198);
+   color: white;
+   font-size: 20px;
+   border-radius: 50px;
+   
+}
