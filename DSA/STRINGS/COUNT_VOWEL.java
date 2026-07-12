@@ -1,4 +1,4 @@
-package DSA.STRINGS;
+
 public class COUNT_VOWEL{
         public static void Countvowel(String str)
         {
