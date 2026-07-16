@@ -1,0 +1,80 @@
+.offerfull
+{
+    min-height: 300px;
+   
+    
+}
+
+.b
+{
+    height:300px ;
+    
+    
+    margin-top: 80px;
+}
+
+.offerL {
+
+   
+    height: 220px;
+    min-width: 200px;
+    border: 2px solid green;
+    float: left;
+    background: #222831;
+    border-radius: 10px;
+  
+}
+
+.img1
+{
+    margin-top: 10px;
+    transform: translateX(10px);
+    height: 200px ;
+    background: url(../assets/o1.jpg);
+    background-size:cover;
+    background-position:center;
+    border: 5px solid yellow;
+    border-radius: 50%;
+    
+    
+   
+}
+
+.img2
+{   
+    margin-top: 10px;
+    transform: translateX(10px);
+    height: 200px ;
+    background: url(../assets/o2.jpg);
+    background-size:cover;
+    background-position:center;
+    border: 5px solid yellow;
+    border-radius: 50%;
+   
+}
+
+
+.offerR {
+    
+    height: 220px;
+    min-width: 200px;
+    border: 2px solid  darkblue;
+    margin-left: 40px;
+    float: left;
+    background: #222831;
+    border-radius: 10px;
+}
+.x
+{
+     width: 100px;
+}
+
+.txt
+{
+     color: white;
+     margin-top: 40px;
+     transform: translateX(20px);
+    
+     
+}
+
